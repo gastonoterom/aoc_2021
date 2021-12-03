@@ -1,6 +1,5 @@
 from typing import List
-
-
+ 
 def main() -> None:
     with open("input.txt") as input_file:
         codes = [code.strip() for code in input_file.readlines()]
